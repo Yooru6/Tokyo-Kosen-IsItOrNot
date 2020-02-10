@@ -4,7 +4,7 @@ from tkinter import filedialog
 import os
 from tkinter import *
 import threading
-from Predict_Squat.Functions import *
+from IsItOrNot.Predict_Squat.Functions import *
 import datetime
 from timeit import default_timer as timer
 
@@ -74,7 +74,7 @@ class Squat_Application(Frame):
         def openPredictFile():
             filename=None
             self.master.wm_attributes('-topmost', 0)
-            file=filedialog.askopenfile(filetypes=(('CSV files','*.csv'),('All files','*.*')),initialdir='C:\\Users\\Yooru\\Desktop\\School\\Git\\S-il-\\SquatOrNot\\GUI_START\\Data\\Testidata')
+            file=filedialog.askopenfile(filetypes=(('CSV files','*.csv'),('All files','*.*')),initialdir='C:\\Users\\Yooru\\Desktop\\School\\Git\\S-il-\\SquatOrNot\\GUI_START\\Data')
             filename=str(os.path.basename(file.name))
             print(filename)
             global pathToTestFile

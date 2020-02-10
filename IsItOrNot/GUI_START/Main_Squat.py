@@ -1,7 +1,7 @@
-from Predict_Squat.Predict_IF import *
-from Make_Model.TRAIN_GUI import *
+from IsItOrNot.Predict_Squat.Predict_IF import *
+from IsItOrNot.Make_Model.TRAIN_GUI import *
 import tkinter as tk
-from Prepare_Dataset.PrepareData_IF import PrepareDataset_Application
+from IsItOrNot.Prepare_Dataset.PrepareData_IF import PrepareDataset_Application
 
 '''Programs Main Menu'''
 class StartGui(Frame):

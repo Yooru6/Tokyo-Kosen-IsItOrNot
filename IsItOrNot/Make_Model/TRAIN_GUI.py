@@ -1,7 +1,7 @@
 from tkinter import messagebox
 from tkinter import filedialog
 import os
-from Make_Model.Functions import *
+from IsItOrNot.Make_Model.Functions import *
 import threading
 THREAD_LOCK = threading.Lock()
 import datetime

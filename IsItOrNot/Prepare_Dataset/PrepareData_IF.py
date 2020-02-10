@@ -1,4 +1,4 @@
-from Prepare_Dataset.PrepareData_Functions import *
+from IsItOrNot.Prepare_Dataset.PrepareData_Functions import *
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import filedialog
